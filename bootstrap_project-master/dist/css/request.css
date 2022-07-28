@@ -1,0 +1,87 @@
+.heading{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.form-group{
+    
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+.Navbar{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    
+    font-size: 17px;
+    position: relative;
+    right: 500px;
+    top: -100px;
+}
+
+.first{
+    position: relative;
+    left: 0px;
+    top: 5px;
+    
+}
+.last{
+    position: relative;
+    right: 0px;
+    top: 20px ;
+    
+}
+.phone{
+    position: relative;
+    right: 0px;
+
+}
+.place{
+    position: relative;
+    right: 0px;
+    top: -20px;
+}
+.dob{
+    position: relative;
+    right: 50px;
+    top: -20px;
+}
+.gender{
+     position: relative;
+     right: 130px;
+}
+.male{
+    position: relative;
+    top: -20px;
+    right: 50px;
+}
+.female{
+    position: relative;
+    right: 50px;
+}
+.other{
+    position: relative;
+    top: 20px;
+    right: 50px;
+}
+.bloodgroup{
+    position:relative;
+    right:80px
+}
+.full{
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-geometric-gradient-creative-blood-donation-poster-background-material-image_134137.jpg"); /* The image used */
+  background-color: #ccc; 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  height: 750px;
+   
+}
+.ac{
+    text-decoration-style: none;
+}
+
+
+
+
