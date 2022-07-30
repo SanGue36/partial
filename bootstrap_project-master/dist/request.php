@@ -120,6 +120,12 @@ if($_SERVER['REQUEST_METHOD']=="POST")
         </div>
           <br>
           <br>
+        <div class="file">
+          <label for="myfile">Select files:</label>
+  <input type="file" id="myfile" name="myfile" multiple accept=".pdf,.doc">
+</div>
+        <br>
+        <br>
         <input type="submit" style="background-color:rgb(252, 216, 222);color:black;height: 50px; width: 150px" style="right: 150px" value="submit" >
    
     </div>
