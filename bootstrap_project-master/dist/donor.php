@@ -115,8 +115,14 @@ if($_SERVER['REQUEST_METHOD']=="POST")
                 <option>AB-</option>
             </select>
         </div>
-        
-        
+        <br>
+        <br>
+        <div class="file">
+          <label for="myfile">Select files:</label>
+  <input type="file" id="myfile" name="myfile" multiple accept=".pdf,.doc">
+</div>
+        <br>
+        <br>
 
         <input type="submit" style="height: 50px; width: 150px;background-color:rgb(25, 11, 11); border-color:rgb(11, 11, 11); color:white" value="Submit">
         <!-- <input type="reset" class="btn btn-secondary ml-2" value="Reset"> -->
