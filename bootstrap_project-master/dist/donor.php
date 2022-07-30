@@ -42,7 +42,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
         <br>
         <h1><strong>Donor Login Form</strong> </h1>
     </div>
-    <br>
+    
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"  method="post">
     <div class ="form-group">
             <div class ="first">
@@ -50,7 +50,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
                 <input type="text"  name="fname" style="height: 20px; width: 200px"  value="<?php echo $fname; ?>">
                 
             </div>
-            <br>
+            
             <div class="last">
                 <label >Last Name :</label>
             <input  type="text" name="lname" style="height: 22px; width: 200px;" value="<?php echo $lname; ?>">
@@ -122,10 +122,10 @@ if($_SERVER['REQUEST_METHOD']=="POST")
   <input type="file" id="myfile" name="myfile" multiple accept=".pdf,.doc">
 </div>
         <br>
-        <br>
+       
 
         <input type="submit" style="height: 50px; width: 150px;background-color:rgb(25, 11, 11); border-color:rgb(11, 11, 11); color:white" value="Submit">
-        <!-- <input type="reset" class="btn btn-secondary ml-2" value="Reset"> -->
+       
     </div>
     </form>
 </div>
